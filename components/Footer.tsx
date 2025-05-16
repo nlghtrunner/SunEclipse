@@ -25,7 +25,7 @@ export default async function Footer() {
         <p>© 2024-2025 osudesu Community</p>
         <p>•</p>
         <a
-          href="https://github.com/osudesuCommunity"
+          href="https://github.com/nlghtrunner/SunEclipse"
           className="flex items-center justify-center space-x-1 hover:text-primary smooth-transition cursor-pointer"
         >
           <Github className="mr-1" />
