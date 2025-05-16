@@ -35,7 +35,7 @@ const wikiContent = [
             <li>
               In the target field, add{" "}
               <code className="text-primary/80">
-                -devserver osu-sunrise.top
+                -devserver osu-osudesu.top
               </code>{" "}
               at the end of the path.
             </li>
@@ -120,7 +120,7 @@ const wikiContent = [
           <p className="mt-2">
             If you have any suggestions, please submit them at our{" "}
             <a
-              href="https://github.com/SunriseCommunity"
+              href="https://github.com/osudesuCommunity"
               className="text-primary hover:underline"
             >
               GitHub

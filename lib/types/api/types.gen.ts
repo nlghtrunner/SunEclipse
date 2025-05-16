@@ -1857,5 +1857,5 @@ export type PostUserUsernameChangeResponses = {
 };
 
 export type ClientOptions = {
-    baseUrl: 'https://api.sunrise.local' | (string & {});
+    baseUrl: 'https://api.osudesu.local' | (string & {});
 };

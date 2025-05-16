@@ -22,10 +22,10 @@ export default async function Footer() {
       )}
 
       <div className="md:flex grid justify-center space-x-4">
-        <p>© 2024-2025 Sunrise Community</p>
+        <p>© 2024-2025 osudesu Community</p>
         <p>•</p>
         <a
-          href="https://github.com/SunriseCommunity"
+          href="https://github.com/osudesuCommunity"
           className="flex items-center justify-center space-x-1 hover:text-primary smooth-transition cursor-pointer"
         >
           <Github className="mr-1" />

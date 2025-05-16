@@ -63,7 +63,7 @@ const cards = [
     title: "Custom-Built Bancho Core",
     description:
       "Unlike most private osu! servers, we’ve developed our own custom bancho core for better stability and unique feature support.",
-    imageUrl: "/images/frontpage/sunrisecore.png",
+    imageUrl: "/images/frontpage/osudesucore.png",
   },
 ];
 
@@ -235,9 +235,9 @@ export default function Home() {
           <PrettyHeader icon={<DoorOpen />} className="rounded-lg">
             <div className="flex flex-col md:flex-row space-y-2 w-full">
               <div className="w-full flex flex-col mx-2">
-                <p className="text-lg">Register osu!sunrise account</p>
+                <p className="text-lg">Register osudesu account</p>
                 <p className="text-muted-foreground text-sm">
-                  Account will allow you to join the osu!sunrise community
+                  Account will allow you to join the osudesu community
                 </p>
               </div>
               <Button className="md:w-1/3 md:m-0 w-full m-2" asChild>
@@ -251,7 +251,7 @@ export default function Home() {
                 <p className="text-lg">Follow the connection guide</p>
                 <p className="text-muted-foreground text-sm">
                   Which helps you set up your osu! client to connect to
-                  osu!sunrise
+                  osudesu
                 </p>
               </div>
               <Button className="md:w-1/3 md:m-0 w-full m-2" asChild>

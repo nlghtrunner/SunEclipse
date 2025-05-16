@@ -32,21 +32,21 @@ export async function generateMetadata(props: {
   }
 
   return {
-    title: `${user.username} on ${beatmap.title} [${beatmap.version}] | osu!sunrise`,
+    title: `${user.username} on ${beatmap.title} [${beatmap.version}] | osudesu`,
     description: `User ${
       user.username
     } has scored ${score.performance_points.toFixed(2)}pp on ${
       beatmap.title
-    } [${beatmap.version}] in osu!sunrise.`,
+    } [${beatmap.version}] in osudesu.`,
     openGraph: {
-      title: `${user.username} on ${beatmap.title} - ${beatmap.artist} [${beatmap.version}] | osu!sunrise`,
+      title: `${user.username} on ${beatmap.title} - ${beatmap.artist} [${beatmap.version}] | osudesu`,
       description: `User ${
         user.username
       } has scored ${score.performance_points.toFixed(2)}pp on ${
         beatmap.title
       } - ${beatmap.artist} [${beatmap.version}] ★${getBeatmapStarRating(
         beatmap
-      ).toFixed(2)} ${score.mods} in osu!sunrise.`,
+      ).toFixed(2)} ${score.mods} in osudesu.`,
       images: [
         `https://assets.ppy.sh/beatmaps/${beatmap.beatmapset_id}/covers/list@2x.jpg`,
       ],

@@ -85,7 +85,7 @@ export default function Wiki() {
               <li>
                 <span className="font-bold">No Liability. </span>You accept full
                 responsibility for your participation in any services provided
-                by Sunrise and acknowledge that you cannot hold the organization
+                by osudesu and acknowledge that you cannot hold the organization
                 accountable for any consequences that may arise from your usage.
               </li>
               <li>
