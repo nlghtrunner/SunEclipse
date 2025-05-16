@@ -93,8 +93,8 @@ export default function Home() {
             <div className="flex flex-col justify-center space-y-4 my-4 md:w-5/12 ">
               <div className="">
                 <h1 className="text-6xl">
-                  <span className="text-primary dark">sun</span>
-                  <span className="text-current">rise</span>
+                  <span className="text-primary dark">osu</span>
+                  <span className="text-current">desu</span>
                 </h1>
                 <p className="text-muted-foreground italic text-sm">
                   - yet another osu! server
